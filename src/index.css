@@ -1,3 +1,105 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #A62177;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #A62177;
+    margin-bottom: 2rem;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #A62177;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: transform 1s;
+    display: grid;
+    gap: 10px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cart-section {
+    margin-top: 2rem;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .cart-table th {
+    background-color: #A62177;
+    color: white;
+    padding: 10px;
+    border-bottom: 5px solid #621346;
+  }
+  
+  .cart-table td {
+    padding: 10px;
+  }
+  
+  .cart-table tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .cart-table tr:hover td {
+    background-color: #db2d9e;
+  }
+  
+  .cart-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    padding: 20px 15%;
+  }
+  
+  .button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1.5px solid #621346;
+    color: #A62177;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #A62177;
+    color: white;
+  }
+  
+  .input {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1.5px solid #621346;
+    color: #A62177;
+  }
