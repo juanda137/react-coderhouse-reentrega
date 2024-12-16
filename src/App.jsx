@@ -15,13 +15,13 @@ function App() {
   const { cart, addToCart, removeFromCart, clearCart, checkout } = useCart();
 
   return (
-    <div className="p-4">
-      <h1 className="text-center text-[#A62177] text-3xl">Susi Fiallo postres</h1>
-      <h2 className="text-center text-[#A62177] text-xl mt-4">
+    <div className="container p-4">
+      <h1 className="title text-3xl">Susi Fiallo postres</h1>
+      <h2 className="subtitle text-xl mt-4">
         Bienvenidos a nuestra pasteleria aqui puedes ver algunos de nuestros productos, esperamos que lo disfrutes
       </h2>
       
-      <div id="contenedor" className="grid grid-cols-3 gap-[2%] p-5">
+      <div id="contenedor" className="products-grid p-5">
         {productos.map(producto => (
           <ProductCard
             key={producto.nombre}
@@ -30,7 +30,7 @@ function App() {
           />
         ))}
       </div>
-
+  
       <Cart cart={cart} onRemove={removeFromCart} />
       <CartActions onCheckout={checkout} onClear={clearCart} />
     </div>
