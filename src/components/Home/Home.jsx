@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importa Link
+import { Link } from 'react-router-dom'; 
 import './Home.css';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
       <div className="banner">
         <h1>Bienvenidos a Susi Fiallo</h1>
         <p>Sabores como el amor de mamá</p>
-        <Link to="/catalog" className="cta-button" style={{ textDecoration: 'none' }}> {/* Usa Link para redirigir */}
+        <Link to="/catalog" className="cta-button" style={{ textDecoration: 'none' }}> {}
           Explora Nuestras Tortas
         </Link>
       </div>

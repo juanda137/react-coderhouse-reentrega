@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../../context/CartContext';
+import Swal from 'sweetalert2'; // Importa SweetAlert2
 import './AddItemButton.css';
 
 const AddItemButton = ({ product, quantity }) => {
@@ -7,7 +8,13 @@ const AddItemButton = ({ product, quantity }) => {
 
   const handleAddToCart = () => {
     addToCart(product, quantity);
-    alert(`${product.name} agregado al carrito!`); // Muestra un mensaje
+    Swal.fire({
+      title: '¡Producto agregado!',
+      text: `${product.name} se ha añadido al carrito.`,
+      icon: 'success',
+      confirmButtonText: 'Aceptar',
+      confirmButtonColor: '#9d1f62', // Color del botón
+    });
   };
 
   return (
