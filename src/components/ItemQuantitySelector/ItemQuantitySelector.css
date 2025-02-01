@@ -1,0 +1,26 @@
+.item-quantity-selector {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .item-quantity-selector button {
+    background-color: #01b8bc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item-quantity-selector button:hover {
+    background-color: #01989c;
+  }
+  
+  .item-quantity-selector span {
+    font-size: 1.2rem;
+  }

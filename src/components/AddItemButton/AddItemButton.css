@@ -1,0 +1,14 @@
+.add-item-button {
+    background-color: #9d1f62;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-item-button:hover {
+    background-color: #7a174d;
+  }

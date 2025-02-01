@@ -1,0 +1,14 @@
+.item-detail-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #01b8bc; /* Color principal 2 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item-detail-link:hover {
+    background-color: #01989c; /* Un tono más oscuro para el hover */
+  }

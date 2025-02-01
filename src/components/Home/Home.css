@@ -1,0 +1,56 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner {
+    background-color: #9d1f62; /* Color principal 1 */
+    color: white;
+    padding: 100px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #01b8bc; /* Color principal 2 */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #01989c; /* Un tono más oscuro para el hover */
+  }
+  
+  .intro-section {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-section h2 {
+    color: #9d1f62; /* Color principal 1 */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section p {
+    color: #333333; /* Color de texto principal */
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }

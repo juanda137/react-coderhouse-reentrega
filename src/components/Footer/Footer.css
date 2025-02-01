@@ -1,0 +1,19 @@
+.footer {
+    background-color: #01b8bc; /* Color principal 2 */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #9d1f62; /* Color principal 1 */
+  }
